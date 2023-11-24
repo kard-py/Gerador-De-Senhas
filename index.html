@@ -23,14 +23,21 @@
           name="tipo"
           id="tipo"
         />
-        <label class="mt-5 mb-2" for="quant">Quantidade de Senhas:</label>
         <input
-          required=""
-          min="10"
-          class="border border-zinc-500 rounded-md p-3"
-          type="number"
+          value="100"
+          class="hidden"
+          type="hidden"
           name="quant"
           id="quant"
+        />
+        <label class="mt-5 mb-2" for="mult">Numero para começar:</label>
+        <input
+          required
+          min="100"
+          class="border border-zinc-500 rounded-md p-3"
+          type="number"
+          name="mult"
+          id="mult"
         />
         <div class="flex items-center justify-center w-full">
           <button
@@ -42,8 +49,6 @@
         </div>
       </form>
     </div>
-
-    <!-- <button class="my-5 w-full" id="back">Voltar Ao Gerador</button> -->
 
     <div class="w-full" id="result"></div>
   </body>
